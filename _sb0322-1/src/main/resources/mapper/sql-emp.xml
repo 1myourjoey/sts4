@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sky.mapper.EmpMapper">
+	<select id="selectCount" resultType="Integer">
+		select count(*) from emp
+	</select>
+
+
+	<select id="selectEmpList" resultType="com.sky.dto.Emp">
+	<![CDATA[
+		SELECT
+			empno,
+			ename,
+			job,
+			mgr,
+			hiredate,
+			sal,
+			comm,
+			deptno
+		FROM
+			emp
+		ORDER BY empno DESC
+	]]>
+	</select>
+
+	<insert id="insertEmp" parameterType="com.sky.dto.Emp">
+		insert into emp
+		(
+		empno,
+		ename ,
+		job ,
+		mgr,
+		hiredate,
+		sal,
+		comm,
+		deptno
+		)
+		values (
+		#{empno},
+		#{ename},
+		#{job},
+		#{mgr},
+		sysdate, 
+		#{sal},
+		#{comm},
+		#{deptno}
+		)
+	</insert>
+
+	<delete id="deleteBoard" parameterType="com.sky.dto.Emp">
+		delete from emp where
+		empno = #{empno}
+
+	</delete>
+	
+	<update id="updateEmp" parameterType="com.sky.dto.Emp">
+    update emp
+    set
+    ename = #{ename},
+    job = #{job},
+    mgr = #{mgr},
+    hiredate = sysdate, 
+    sal = #{sal},
+    comm = #{comm},
+    deptno = #{deptno}
+    where
+    empno = #{empno}
+</update>
+
+</mapper>

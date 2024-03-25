@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Sb03221ApplicationTests" project="_sb0322-1" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sky.Sb03221ApplicationTests" time="0.387" displayname="Sb03221ApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]">
+    <testcase name="delete" classname="com.sky.Sb03221ApplicationTests" time="0.321" displayname="삭제" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:delete()]"/>
+    <testcase name="insert" classname="com.sky.Sb03221ApplicationTests" time="0.005" displayname="회원 추가" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:insert()]"/>
+    <testcase name="update" classname="com.sky.Sb03221ApplicationTests" time="0.006" displayname="회원 업데이트" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:update()]"/>
+    <testcase name="empListTest" classname="com.sky.Sb03221ApplicationTests" time="0.041" displayname="리스트 목록" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:empListTest()]"/>
+    <testcase name="contextLoads" classname="com.sky.Sb03221ApplicationTests" time="0.008" displayname="카운트" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>

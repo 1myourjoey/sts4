@@ -1,0 +1,11 @@
+INDEX VERSION 1.134
+D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2819664657.index
+\_sb0322-1\src\main\java
+D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\115954697.index
+\springboostupex\src\main\java
+D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2827397234.index
+\_sb0322\src\main\java
+D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1106092475.index
+\ajaxTEST\src\main\java
+D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3129801786.index
+\sp0320\src\main\java

@@ -1,0 +1,22 @@
+package com.boost.springboostupex;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.boost.springboostupex.dao.MemberDao;
+
+@SpringBootTest
+class SpringboostupexApplicationTests {
+
+	@Autowired
+	private MemberDao memDao;
+	@Test
+	void contextLoads() {
+	}
+
+	@Test
+	public void Test() {
+		System.out.println(memDao.selectAll());
+	}
+}

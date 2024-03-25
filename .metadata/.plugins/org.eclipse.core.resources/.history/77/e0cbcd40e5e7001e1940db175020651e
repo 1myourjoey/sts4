@@ -1,0 +1,9 @@
+package com.sky.sp0320;
+
+@getter
+
+public class member {
+private String name;
+private String age;
+private int call;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Sb03221ApplicationTests" project="_sb0322-1" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sky.Sb03221ApplicationTests" time="0.36" displayname="Sb03221ApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]">
+    <testcase name="insert" classname="com.sky.Sb03221ApplicationTests" time="0.313" displayname="insert() test" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:insert()]"/>
+    <testcase name="empListTest" classname="com.sky.Sb03221ApplicationTests" time="0.034" displayname="리스트 목록" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:empListTest()]"/>
+    <testcase name="contextLoads" classname="com.sky.Sb03221ApplicationTests" time="0.01" displayname="카운트" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>
