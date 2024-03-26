@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Sb03221ApplicationTests" project="_sb0322-1" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sky.Sb03221ApplicationTests" time="0.387" displayname="Sb03221ApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]">
-    <testcase name="contextLoads" classname="com.sky.Sb03221ApplicationTests" time="0.387" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sb03221ApplicationTests]/[method:contextLoads()]"/>
-  </testsuite>
-</testrun>

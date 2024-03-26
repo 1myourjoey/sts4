@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Sp0325ApplicationTests" project="sp0325" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sky.Sp0325ApplicationTests" time="0.305" displayname="Sp0325ApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sp0325ApplicationTests]">
-    <testcase name="memberList" classname="com.sky.Sp0325ApplicationTests" time="0.278" displayname="member Table list" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sp0325ApplicationTests]/[method:memberList()]"/>
-    <testcase name="insert" classname="com.sky.Sp0325ApplicationTests" time="0.011" displayname="insert() test" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sp0325ApplicationTests]/[method:insert()]"/>
-    <testcase name="contextLoads" classname="com.sky.Sp0325ApplicationTests" time="0.003" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sp0325ApplicationTests]/[method:contextLoads()]"/>
-    <testcase name="memberCount" classname="com.sky.Sp0325ApplicationTests" time="0.01" displayname="member Table Count" uniqueid="[engine:junit-jupiter]/[class:com.sky.Sp0325ApplicationTests]/[method:memberCount()]"/>
-  </testsuite>
-</testrun>

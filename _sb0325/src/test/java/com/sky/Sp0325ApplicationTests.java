@@ -33,10 +33,10 @@ class Sp0325ApplicationTests {
 //	@Test
 	@DisplayName("insert() test")
 	public void insert() {
-		BoardDto dto = BoardDto.builder().email("33@333").name("춘향").password("ww").build();
+		BoardDto dto = BoardDto.builder().email("0326@0326").name("화요일").password("7777").build();
 		
 		boardMapper.insertBoard(dto);
-		
+		System.out.println(dto.getId()); // 삽입한걸 바로 어떤 번호를 받았는지 알려주는 것
 	}
 //	@Test
 	@DisplayName("delete")
