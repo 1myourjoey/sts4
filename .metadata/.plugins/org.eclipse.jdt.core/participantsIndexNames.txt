@@ -7,6 +7,8 @@ D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2150707781.in
 \_sb0325\src\main\java
 D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\684546504.index
 \_sb0325-1\src\main\java
+D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2924017935.index
+\writingProject\src\main\java
 D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2827397234.index
 \_sb0322\src\main\java
 D:\_dev\sts4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1106092475.index

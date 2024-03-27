@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.sky.dto.BoardDto"><rhs name\="com.sky.dto.BoardDto"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.sky.dto.BoardDto"><rhs name\="com.sky.dto.BoardDto"/></lhs><lhs name\="spring.Member"><rhs name\="spring.Member"/></lhs><lhs name\="chap07.Calculator"><rhs name\="chap07.ExeTimeCalculator"/><rhs name\="chap07.ImpeCalculator"/><rhs name\="chap07.RecCalculator"/></lhs><lhs name\="chap07.ImpeCalculator"><rhs name\="chap07.ImpeCalculator"/></lhs><lhs name\="chap07.RecCalculator"><rhs name\="chap07.RecCalculator"/></lhs><lhs name\="chap07.ExeTimeCalculator"><rhs name\="chap07.ExeTimeCalculator"/></lhs><lhs name\="org.springframework.boot.autoconfigure.security.SecurityProperties$User"><rhs name\="org.springframework.boot.autoconfigure.security.SecurityProperties$User"/></lhs></history>
 content_assist_number_of_computers=14
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
