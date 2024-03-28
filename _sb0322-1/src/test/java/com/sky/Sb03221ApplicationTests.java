@@ -29,7 +29,7 @@ class Sb03221ApplicationTests {
 	@Test
 	@DisplayName("회원 추가")
 	public void insert() {
-		Emp dto = Emp.builder().empno(8200).ename("춘향이").job("부인").mgr(7777).sal(9999).comm(4000).deptno(20).build();
+		Emp dto = Emp.builder().empno(8854).ename("춘향이").job("부인").mgr(7777).sal(9999).comm(4000).deptno(20).build();
 		
 		empMapper.insertEmp(dto);
 		

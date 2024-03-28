@@ -16,10 +16,7 @@ public class UserController {
 	@Autowired
 	UserService userService;
 	
-	@GetMapping("/")
-	public String index() {
-		return "index";
-	}
+	
 	@GetMapping("userList")
 	public String userList(Model model) {
 		 List<UserDto> users = userService.selectAll();
