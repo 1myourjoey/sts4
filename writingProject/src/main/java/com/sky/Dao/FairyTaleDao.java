@@ -3,6 +3,7 @@ package com.sky.Dao;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -10,7 +11,6 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import com.sky.Dto.FairyTaleDto;
-import com.sky.Dto.UserDto;
 
 @Repository
 public class FairyTaleDao {
@@ -35,5 +35,11 @@ public class FairyTaleDao {
 	                });
 
 	        return results; // 결과 반환
+	    }
+	  public FairyTaleDto selectRandom() {
+	        List<FairyTaleDto> allFairyTales = selectAll();
+	        Random random = new Random();
+	        int randomIndex = random.nextInt(allFairyTales.size());
+	        return allFairyTales.get(randomIndex);
 	    }
 }

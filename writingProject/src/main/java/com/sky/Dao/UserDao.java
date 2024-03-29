@@ -5,6 +5,8 @@ import java.sql.SQLException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
@@ -38,6 +40,22 @@ public class UserDao {
                 });
 
         return results; // 결과 반환
+    }
+    
+    public UserDto findById(String id) {
+        String query = "SELECT * FROM user WHERE id = ?"; // 테이블 이름 수정
+        try {
+            return jdbcTemplate.queryForObject(query, new Object[]{id}, (rs, rowNum) -> {
+                UserDto user = new UserDto();
+                user.setId(rs.getString("id"));
+                user.setName(rs.getString("name"));
+                user.setPassword(rs.getString("password"));
+                user.setEmail(rs.getString("email"));
+                return user;
+            });
+        } catch (EmptyResultDataAccessException e) {
+            return null;
+        }
     }
 }
 
